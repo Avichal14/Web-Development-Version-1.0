@@ -1,16 +1,38 @@
-/* .box{
-  border: 1px solid black;   
-  height: 200px;
-  width: 150px;
-  
-  background-image: radial-gradient( orange,white,green) ;
-
-} */
+.box{
+     border: 1px solid black;
+     margin: 12px;
+     height: 200px;
+     width: 150px;
+     background-image: linear-gradient(Orange,white,green);
+     text-align: center;
+     border-radius: 20%;
+     
+}
 
 .mydiv{
      border: 1px solid black;
-     margin: 10px;
+     margin: 12px;
      height: 200px;
-     background-image: linear-gradient(orange,white ,green);
-
+     width: 150px;
+     text-align: center;
+     background-image: radial-gradient(green,white,Orange );
+     border-radius: 20%;
+}
+.diiv{
+     border: 1px solid black;
+          margin: 12px;
+          height: 200px;
+          width: 150px;
+          text-align: center;
+          background-image: conic-gradient(red,yellow,green,blue,black);
+          border-radius: 50%;
+}
+.avi{
+     border: 1px solid black;
+          margin: 12px;
+          height: 200px;
+          width: 150px;
+          text-align: center;
+          background-image: repeating-conic-gradient(red 10%,yellow 20%);
+         
 }
